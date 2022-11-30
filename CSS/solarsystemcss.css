@@ -1,0 +1,91 @@
+.no2 {
+    fill: #4C4E52;
+    position: absolute;
+    animation: 10s infinite linear;
+    animation-name: orbit;
+    transform-origin: 50% 50%;
+}
+
+.no3 {
+    fill: #4C4E52;
+    position: absolute;
+    animation: 11.5s infinite linear;
+    animation-name: orbit;
+    transform-origin: 50% 50%;
+
+}
+
+.no4 {
+    fill: #4C4E52;
+    position: absolute;
+    animation: 14s infinite linear;
+    animation-name: orbit;
+    transform-origin: 50% 50%;
+
+}
+
+.no5 {
+    fill: #4C4E52;
+    position: absolute;
+    animation: 15s infinite linear;
+    animation-name: orbit;
+    transform-origin: 50% 50%;
+
+}
+
+.no6 {
+    fill: #4C4E52;
+    position: absolute;
+    animation: 6s infinite linear;
+    animation-name: orbit;
+    transform-origin: 50% 50%;
+    z-index: 6;
+}
+
+.no7 {
+    fill: #4C4E52;
+    position: absolute;
+    animation: 8s infinite linear;
+    animation-name: orbit;
+    transform-origin: 50% 50%;
+    z-index: 6;
+}
+
+.no8 {
+    fill: #4C4E52;
+    position: absolute;
+    animation: 15s infinite linear reverse;
+    animation-name: orbit;
+    transform-origin: 50% 50%;
+    z-index: 6;
+}
+
+.no9 {
+    fill: #4C4E52;
+    position: absolute;
+    animation: 18s infinite linear reverse;
+    animation-name: orbit;
+    transform-origin: 50% 50%;
+    z-index: 6;
+}
+
+
+
+
+
+@keyframes orbit {
+    from {
+        transform: rotate(0deg);
+        -webkit-animation: orbit 0s linear infinite;
+        -moz-animation: orbit 0s linear infinite;
+        -o-animation: orbit 0s linear infinite;
+        animation: orbit 0s linear infinite;
+    }
+    to {
+        transform: rotate(360deg);
+        -webkit-animation: orbit-fadeout 0s linear infinite;
+        -moz-animation: orbit-fadeout 0s linear infinite;
+        -o-animation: orbit-fadeout 0s linear infinite;
+        animation: orbit-fadeout 0s linear infinite;
+    }
+}
