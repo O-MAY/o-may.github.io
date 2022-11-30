@@ -393,7 +393,7 @@ img.up-arrow {
     }
 
     .container-background-where-next {
-        height: 70vh;
+        height: auto;
         width: 28vw;
 
         margin: 0 0 2rem 0;
