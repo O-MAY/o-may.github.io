@@ -44,7 +44,7 @@ hr {
 #hero {
     position: relative;
     width: 100vw;
-    height: 50vh;
+    height: 60vh;
     overflow: hidden;
 
     margin: 0 auto 0 auto;
@@ -101,7 +101,8 @@ hr {
     position: relative;
 
     width: 85vw;
-    height: 85vh;
+    min-height: 85vh;
+    max-height: 95vh;
     overflow: hidden;
 
     margin: 0 auto 2rem auto;
